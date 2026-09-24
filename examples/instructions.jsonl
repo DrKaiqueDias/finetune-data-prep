@@ -1,0 +1,12 @@
+{"instruction":"Explain why a validation set is useful.","output":"It helps compare model choices using examples outside the training set."}
+{"instruction":"What should happen when an answer lacks evidence?","output":"Flag the unsupported claim and ask for a source or a narrower answer."}
+{"instruction":"Define a training example.","output":"An input paired with the target output used to fit a model."}
+{"instruction":"Why remove duplicate prompts before splitting data?","output":"Repeated prompts in both sets can make evaluation look better than it is."}
+{"instruction":"What does a fixed seed help with?","output":"It makes a chosen data split repeatable for the same inputs."}
+{"instruction":"Describe overfitting in one sentence.","output":"A model fits the training examples well but performs poorly on new examples."}
+{"instruction":"What is a label in supervised learning?","output":"The target category or value attached to a training example."}
+{"instruction":"How would you review conflicting annotations?","output":"Compare the guidance and evidence, then resolve the disagreement before training."}
+{"instruction":"Explain the purpose of a baseline model.","output":"It gives a simple reference point for judging more complex models."}
+{"instruction":"Why record a dataset hash?","output":"It helps identify which exact dataset was used for a run."}
+{"instruction":"What belongs in an error report?","output":"The failed check, its location and enough context to reproduce it safely."}
+{"instruction":"How should private data be handled in a public example?","output":"Use synthetic examples and check that no private content remains."}
